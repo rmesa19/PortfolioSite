@@ -39,6 +39,8 @@ export const NavLogo = styled(LinkR)`
     align-items: center;
     margin-left: 24px;
     text-decoration: none;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
 
     :hover {
         text-decoration: none;
@@ -94,13 +96,15 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkS)`
-   color: #fff;
-   display: flex;
-   align-items: center;
-   text-decoration: none;
-   padding: 0 1rem;
-   height: 100%;
-   cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
    
    &.active{
        border-bottom: 3px solid #01bf71;
@@ -113,4 +117,6 @@ export const NavLinks = styled(LinkS)`
     transition-duration: 0.2s;
     transition-timing-function: ease-out;
     }
+
+
 `

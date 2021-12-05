@@ -1,6 +1,6 @@
 import React from 'react'
 import Video from '../../videos/video.mp4'
-import {HeroContainer, HeroName, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroPicture, HeroText} from './HeroElements'
+import {HeroContainer, HeroName, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroPicture, HeroText, HeroText2, HeroUnderline} from './HeroElements'
 import Image from '../../images/cover_photo2.png'
 import Typical from 'react-typical'
 
@@ -22,15 +22,17 @@ const HeroSection = () => {
                 />
                     
                 </HeroH1>
-                <HeroName>Rudy Mesadieu.</HeroName>
+                <HeroName><HeroUnderline>Rudy Mesadieu.</HeroUnderline></HeroName> 
+                </HeroText>
+                <HeroText2>
                 <HeroPicture src={Image}></HeroPicture>
                 <HeroP>
                     I am a New-York based front and backend student developer looking to 
-                    expand my opportunities in developing web applications, working with REACT, UX/UI Design,
-                    API creation, and software development. {"\n"} 
+                    expand my opportunities in software development, working with REACT, UX/UI Design,
+                    and API creation. {"\n"} 
                     
                </HeroP>
-               </HeroText>
+               </HeroText2>
                 
             </HeroContent>
         </HeroContainer>
