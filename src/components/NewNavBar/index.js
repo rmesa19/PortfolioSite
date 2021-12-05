@@ -7,13 +7,13 @@ const NavBar = ({toggle}) =>{
         <>
         <Nav>
             <NavBarContainer>
-                <NavLogo to='/'>Rodolph Mesadieu's Portfolio</NavLogo>
+                <NavLogo to='/'>RM</NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to='about'>AboutMe</NavLinks>
+                        <NavLinks to='about'>About</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='projects'>Projects</NavLinks>

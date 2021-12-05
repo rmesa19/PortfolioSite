@@ -3,12 +3,12 @@ import {Link as LinkR} from 'react-router-dom';
 import {Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.nav`
-    background: linear-gradient(90deg,rgb(65, 63, 82) 0%, rgb(25, 25, 34) 100%);
+    background: rgb(2, 41, 51);
     height:80px;
     display:flex;
     justify-content:center;
     align-items: center;
-    font-size: 1rem;
+    font-size: .8rem;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -42,7 +42,8 @@ export const NavLogo = styled(LinkR)`
 
     :hover {
         text-decoration: none;
-        color: #fff;
+        color: #4bfabd;
+        
     }
 `
 
@@ -75,6 +76,21 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 80px;
+
+    :hover {
+        text-decoration: none;
+        color: #4bfabd;
+        border-bottom: 3px solid #01bf71;
+        transition-property: left right;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-out;
+        
+    }
+    
+    &.active{
+        border-bottom: 3px solid #01bf71;
+    }
+
 `
 
 export const NavLinks = styled(LinkS)`
@@ -89,4 +105,12 @@ export const NavLinks = styled(LinkS)`
    &.active{
        border-bottom: 3px solid #01bf71;
    }
+
+   :hover {
+    text-decoration: none;
+    color: #4bfabd;
+    transition-property: left right;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    }
 `
