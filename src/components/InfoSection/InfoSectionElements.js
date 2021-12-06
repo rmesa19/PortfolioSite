@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const InfoContainer = styled.div`
     color: #fff;
     background: rgb(2, 41, 51);
-    padding: 10vh 10vh;
+    padding: 10vh 20vw;
     width: 100%;
     height: 93vh;
 
