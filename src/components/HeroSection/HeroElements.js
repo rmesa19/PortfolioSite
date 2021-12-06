@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 0px;
-    height: 800px;
+    height: 840px;
     position: relative;
     z-index: 1;
 `
@@ -56,10 +56,10 @@ export const HeroPicture = styled.img`
     max-width: 35vh;
     max-height: 30vh;
     z-index: 4;
-    border-radius: 5%;
+    border-radius: 50%;
     box-shadow: 1vh 1vh 0px 2px rgba(75, 250, 189, .5); 
-    margin-top: 10vh;
-    margin-bottom: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
 
     @media screen and (max-width: 768px){
         width: 31vh;
@@ -78,6 +78,7 @@ export const HeroPicture = styled.img`
 export const HeroName = styled.h1`
 
     padding-top: 0vh;
+    margin-bottom: 3vh;
     color: #fff;
     font-size: 72px;
     font-weight: 900;
@@ -150,7 +151,7 @@ export const HeroText = styled.div`
     justify-content: flex-start;
     padding-left: 10vh;
     padding-right: 10vh;
-    background-color: rgba(0, 0, 0, 0.486);
+    background-color: rgba(0, 0, 0, 0.656);
     width: 100%;
 
     @media screen and (max-width: 768px){
@@ -166,12 +167,13 @@ export const HeroText2 = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    padding-left: 5vh;
-    padding-right: 5vh;
-    background-color: rgba(0, 0, 0, 0.486);
+    justify-content: center;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    background-color: rgba(0, 0, 0, 0.656);
     width: 100%;
     height: 100%;
+    padding-top: ;
 
     @media screen and (max-width: 768px){
         align-items: center;
