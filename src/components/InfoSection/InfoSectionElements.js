@@ -26,3 +26,15 @@ export const InfoBox = styled.div`
     height: inherit; 
     justify-content: center;
 `
+
+export const SkillList = styled.ul`
+    display: flex;
+    width: 100%;
+    height: inherit;
+`
+
+
+export const ListItem = styled.li`
+    color: #fff;
+
+`
