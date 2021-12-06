@@ -177,12 +177,14 @@ export const HeroText2 = styled.div`
 
     @media screen and (max-width: 768px){
         align-items: center;
-        
+        padding-left: 10vh;
+        padding-right: 10vh;
     }
     
     @media screen and (max-width: 480px){
         align-items: center;
-        
+        padding-left: 5vh;
+        padding-right: 5vh;
     }
 `
 export const HeroUnderline = styled.p`
