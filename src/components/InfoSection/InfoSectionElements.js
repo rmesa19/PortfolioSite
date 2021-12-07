@@ -21,19 +21,28 @@ export const InfoTitle =styled.h1`
 
 export const InfoBox = styled.div`
     display: flex;
+    flex-direction: column;
     margin: 0px 0px;
     width: 100%;
-    height: inherit; 
-    justify-content: center;
+    height: 600px; 
+    align-items: flex-start;
+    justify-content: flex-start;
 `
 
 export const SkillList = styled.ul`
     display: flex;
-    width: 100%;
-    height: inherit;
+    flex-direction: column;
+    padding: 
+    width: relative;
+    height: relative;
 `
 
-
+export const SkillBox = styled.div`
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 100%;
+`
 export const ListItem = styled.li`
     color: #fff;
 
